@@ -39,8 +39,6 @@ export default function Home() {
   }, [place, refetch]);
 
   const firstData = data?.list[0];
-  console.log(firstData);
-  console.log(data);
 
   const uniqueDates = [
     ...new Set(
